@@ -5,9 +5,9 @@ public class Main {
 
 //        emir.setAccountNumber(456897854);
 //        emir.setBalance(450000);
-//        emir.setCustomerName("EMİR KARPUZ");
+//        emir.setCustomerName("AHMET KARA");
 //        emir.setEmail("ek@gmail.com");
-//        emir.setPhoneNumber("+905057836291");
+//        emir.setPhoneNumber("+123456789");
 
 
 //        System.out.println("HOŞGELDİNİZ " + emir.getCustomerName());
@@ -16,7 +16,7 @@ public class Main {
 //        emir.depositFunds(50000);
 //        emir.withdrawFunds(600000);
 
-        VipCustomer vip = new VipCustomer("EMİR KARPUZ", 250.50, "emir@mail.com");
+        VipCustomer vip = new VipCustomer("AHMET KARA", 250.50, "test@mail.com");
         System.out.println("KULLANICI ADI: " + vip.getName() + " KREDİ LİMİTİ: " + vip.getCreditLimit()
                 + " KULLANICI EMAIL ADRESİ: " + vip.getEmail());
     }
